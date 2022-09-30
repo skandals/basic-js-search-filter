@@ -1,0 +1,60 @@
+body {
+    margin:0;
+    padding:0;
+    overflow-x: hidden;
+    font-family: sans-serif;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+.nav {
+    width:100%;
+    background-color: rgb(41, 41, 41);
+    color:white;
+    line-height: 70px;
+}
+
+.logo {
+    color: white;
+    font-size: x-large;
+    margin-inline: 10px;
+}
+
+.header {
+    margin-block: 10px;
+}
+
+.header-text {
+    font-size: x-large;
+}
+
+.inpSection {
+    margin: 20px;
+    text-align: center;
+}
+
+#searchInp {
+    padding: 7px;
+    width: 250px;
+}
+
+.items {
+    border: thin solid lightgray;
+}
+
+.item {
+    border: thin solid gray;
+    padding: 10px;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.description {
+    font-size: 16px;
+}
