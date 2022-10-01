@@ -7,6 +7,8 @@
     <title>JS Search Filter</title>
     <link rel="stylesheet" href="style.css">
     <script src="filter.js" defer></script>
+    <script src="add-item.js" defer></script>
+
 </head>
 <body>
     
@@ -14,55 +16,36 @@
     <div class="logo"><span>Search Filter</span></div>
 </div>
 
+<section class="inpSection">
+
+    <div class="header">
+        <span class="header-text">Add Users</span>
+    </div>
+
+    <form class="form">
+        <div class="input-control">
+            <input type="text" name="" placeholder="Enter name" id="inpName" class="input">
+        </div>
+        <div class="input-control">
+            <input type="text" name="" placeholder="Enter occupation" id="inpDesc" class="input">
+        </div> 
+        <div class="input-control">
+            <button class="btn" id="addBtn">Add</button>
+        </div>
+    </form>
+
+</section>
 
 <section class="inpSection">
 
     <div class="header"><span class="header-text">Search</span></div>
 
     <div class="inpText">
-        <input type="text" name="" id="searchInp">
+        <input type="text" name="" placeholder="Enter name/occupation" class="searchInp input">
     </div>
 </section>
 
-
 <section class="items">
-
-    <div class="item">
-        <div class="title">Sfiso</div>
-        <div class="description">
-            A web developer
-        </div>
-    </div>
-
-    <div class="item">
-        <div class="title">Sbu</div>
-        <div class="description">
-            Music Producer
-        </div>
-    </div>
-
-    <div class="item">
-        <div class="title">Sunday</div>
-        <div class="description">
-            DeeJay
-        </div>
-    </div>
-
-    <div class="item">
-        <div class="title">Mpilo</div>
-        <div class="description">
-            A web developer
-        </div>
-    </div>
-
-    <div class="item">
-        <div class="title">Thami</div>
-        <div class="description">
-            Singer
-        </div>
-    </div>
-
-
 </section>
 
 </body>
